@@ -1,0 +1,32 @@
+# Rust / Cargo build artifacts
+/target/
+**/target/
+
+# Whisper models (large binary weights)
+models/*.bin
+*.bin
+
+# Symlinks
+main/models
+
+# Audio files
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+
+# Environment variables & local secrets
+.env
+*.env
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
