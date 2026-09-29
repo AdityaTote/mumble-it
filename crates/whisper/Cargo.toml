@@ -2,5 +2,8 @@
 name = "whisper"
 version = "0.1.0"
 edition = "2024"
+description = "Whisper speech-to-text inference wrapper for Mumble-It"
 
 [dependencies]
+thiserror = "2.0.21"
+whisper-rs = "0.16.0"
