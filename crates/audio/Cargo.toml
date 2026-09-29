@@ -1,0 +1,10 @@
+[package]
+name = "audio"
+version = "0.1.0"
+edition = "2024"
+description = "Microphone capture, downmixing, and 16kHz resampling pipeline for Mumble-It"
+
+[dependencies]
+cpal = "0.18.2"
+rubato = "5.0.0"
+thiserror = "2.0"
