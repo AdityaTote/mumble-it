@@ -1,4 +1,21 @@
 [workspace]
 resolver = "3"
-members = ["main"]
 
+
+# members
+members = [
+    "main",
+    "crates/audio",
+    "crates/core",
+    "crates/hotkey",
+    "crates/inject",
+    "crates/whisper",
+    "src-tauri",
+]
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true
